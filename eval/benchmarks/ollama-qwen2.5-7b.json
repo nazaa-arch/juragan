@@ -502,7 +502,7 @@
         "answer": true
       },
       "expected": {},
-      "answer": "Laporan harian toko telah disiapkan dan disimpan di path berikut: C:\\Users\\firma\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\scratch-workspaces\\fb7be652-9f06-4165-bae2-3e36184a7ed6\\5e983c3d-b29a-4d05-9376-48db97675843\\scratch-2026-11-10-3312b4\\juragan\\eval\\results\\reports\\laporan-harian-toko.html\n\nBerikut ringkasan laporannya:\n- Omzet hari ini: Rp1.250.000\n- Metode bayar:\n  - QRIS: Rp998.500 (50 transaksi)\n  - Uang tunai: Rp924.400 (71 transaksi)\n  - Transfer: Rp263.500 (11 transaksi)\n- Kategori produk:\n  - Sembako: Rp942.500 (labanya: Rp104.500)\n  - PPOB: Rp470.000 (labanya: Rp39.900)\n  - Minuman: Rp392.000 (labanya: Rp91.000)\n  - Makanan: Rp169.400 (labanya: Rp33.900)\n  - Energi: Rp132.000 (labanya: Rp24.000)\n  - Kebutuhan Rumah: Rp43.000 (labanya: Rp9.200)\n  - Bumbu: Rp37.500 (labanya: Rp9.000)",
+      "answer": "Laporan harian toko telah disiapkan dan disimpan di path berikut: eval/results/reports/laporan-harian-toko.html\n\nBerikut ringkasan laporannya:\n- Omzet hari ini: Rp1.250.000\n- Metode bayar:\n  - QRIS: Rp998.500 (50 transaksi)\n  - Uang tunai: Rp924.400 (71 transaksi)\n  - Transfer: Rp263.500 (11 transaksi)\n- Kategori produk:\n  - Sembako: Rp942.500 (labanya: Rp104.500)\n  - PPOB: Rp470.000 (labanya: Rp39.900)\n  - Minuman: Rp392.000 (labanya: Rp91.000)\n  - Makanan: Rp169.400 (labanya: Rp33.900)\n  - Energi: Rp132.000 (labanya: Rp24.000)\n  - Kebutuhan Rumah: Rp43.000 (labanya: Rp9.200)\n  - Bumbu: Rp37.500 (labanya: Rp9.000)",
       "tools": [
         "sales_summary",
         "build_chart",
