@@ -420,7 +420,8 @@ def _render_report(title: str, markdown: str, charts: list[dict[str, Any]], as_o
 <title>{html.escape(title)}</title>
 <style>
  body{{font-family:system-ui,Segoe UI,Arial,sans-serif;max-width:860px;margin:0 auto;padding:32px 16px;color:#1f2937;background:#fff;line-height:1.55}}
- h1{{color:#1e3a8a;margin-bottom:4px}} .meta{{color:#6b7280;margin-top:0}}
+ body{{font-size:16px}} h1{{font-size:32px;line-height:1.2;color:#1e3a8a;margin-bottom:4px}}
+ h2{{font-size:22px;line-height:1.3;margin-top:28px}} h3{{font-size:18px}} .meta{{color:#6b7280;margin-top:0;font-size:14px}}
  .chart{{margin:24px 0;padding:12px;border:1px solid #e5e7eb;border-radius:8px}}
 </style></head><body>
 <h1>{html.escape(title)}</h1><p class="meta">Data per {as_of.isoformat()} &middot; dibuat oleh JURAGAN</p>
